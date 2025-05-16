@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Writer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {font-family: 'Roboto', sans-serif; margin: 0; background-color: #121212; color: #ffffff;}
+        .container {max-width: 900px; margin: auto; padding: 20px; background-color: #1e1e1e; border-radius: 15px; box-shadow: 0 4px 30px rgba(0,0,0,0.5);}
+        h1 {color: #00ffe0; text-align: center; margin-bottom: 20px; font-weight: 700;}
+        .section {margin-bottom: 30px;}
+        .section-title {color: #00ffe0; border-bottom: 2px solid #00ffe0; padding-bottom: 5px; margin-bottom: 15px; font-weight: 700;}
+        .sample {margin-bottom: 15px; color: #ffffff;}
+        .contact-form {background-color: #2a2a2a; padding: 20px; border-radius: 8px;}
+        input, textarea {width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #444; border-radius: 5px; background-color: #333; color: #fff;}
+        button {background-color: #00ffe0; color: #000; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;}
+        button:hover {background-color: #00d4b0;}
+        a {color: #00ffe0; text-decoration: none;}
+        a:hover {text-decoration: underline;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Writer Portfolio</h1>
+        <div class="section">
+            <div class="section-title">About Me</div>
+            <p>I am a professional crypto writer specializing in DeFi, NFTs, Web3, and blockchain content. I craft high-quality, SEO-optimized articles, whitepapers, and technical guides for emerging crypto projects.</p>
+        </div>
+        <div class="section">
+            <div class="section-title">Work Samples</div>
+            <div class="sample">DeFi Article - <a href="#">Understanding Yield Farming</a></div>
+            <div class="sample">Whitepaper - <a href="#">Blockchain Protocol Overview</a></div>
+            <div class="sample">NFT Project Description - <a href="#">Creative Writing for NFT Collections</a></div>
+        </div>
+        <div class="section">
+            <div class="section-title">Contact Me</div>
+            <form class="contact-form" action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div><!-- Simple Chat Widget -->
+<script>
+    window.onload = function() {
+        let chatButton = document.createElement('div');
+        chatButton.innerHTML = '💬 Chat with Me';
+        chatButton.style.position = 'fixed';
+        chatButton.style.bottom = '20px';
+        chatButton.style.right = '20px';
+        chatButton.style.backgroundColor = '#00ffe0';
+        chatButton.style.color = '#000';
+        chatButton.style.padding = '15px 30px';
+        chatButton.style.borderRadius = '30px';
+        chatButton.style.cursor = 'pointer';
+        chatButton.style.fontWeight = 'bold';
+        chatButton.style.boxShadow = '0 4px 20px rgba(0,255,224,0.5)';
+        chatButton.onclick = function() {alert('Chat feature coming soon!');};
+        document.body.appendChild(chatButton);
+    }
+</script>
+
+</body>
+</html>
